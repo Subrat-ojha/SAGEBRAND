@@ -1,0 +1,16 @@
+Use case: ads-marketing
+Asset type: branded website social-preview / Open Graph image, landscape 1200×630-style
+Primary request: Create one original editorial graphic for Sage Labs. A warm cream paper canvas is divided by a thick near-black editorial grid into bold asymmetric rectangular panels filled with pastel sage green, soft butter yellow, and muted peach. Make it sophisticated, tactile, contemporary, and highly legible, like an independent design studio poster.
+Scene/backdrop: flat warm cream paper with subtle natural paper grain; no photographic scene
+Subject: an abstract brand composition made from the grid, color panels, oversized typography, and a few small hand-drawn product-design marks such as a cursor arrow, wireframe box, tiny spark, rough pencil loop, or simple interface glyph
+Style/medium: premium 2D editorial graphic design, screen-printed poster character, crisp near-black rules, restrained hand-drawn accents
+Composition/framing: landscape 1.904:1 social card; generous safe margins; strong asymmetrical modular grid; title as a small label; headline as the dominant oversized grotesk typographic element; supporting copy smaller but clearly readable; no cropping of any text
+Color palette: warm cream paper, near-black ink, full flat pastel sage green, butter yellow, muted peach
+Materials/textures: subtle paper fiber and slight ink texture, otherwise clean flat color
+Text (verbatim):
+"Sage Labs"
+"From first sketch to working product."
+"Websites · Mobile apps · Custom software · AI"
+Typography: bold oversized grotesk sans serif for the headline, compact grotesk for title and supporting copy; render every character exactly as supplied, preserving capitalization, punctuation, middle dots, and the final period
+Constraints: include all three exact text strings once each; original composition; balanced visual hierarchy; suitable for a website Open Graph preview; no client logos; no statistics; no watermark
+Avoid: misspellings, extra words, duplicated text, distorted letterforms, illegible microtype, logos, brand marks from other companies, gradients, glossy 3D, stock-photo look
