@@ -19,7 +19,13 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a>
         </nav>
-        <a className="button button--primary" href="#contact">Start a project <span className="arrow-icon" aria-hidden="true" /></a>
+        <details className="compact-nav">
+          <summary>Menu</summary>
+          <nav aria-label="Compact navigation">
+            <a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Start a project</a>
+          </nav>
+        </details>
+        <a className="button button--primary header-cta" href="#contact">Start a project <span className="arrow-icon" aria-hidden="true" /></a>
       </header>
 
       <section className="project-board" id="top" aria-labelledby="hero-title">
@@ -28,7 +34,7 @@ export default function Home() {
           <p>One dependable team for websites, mobile apps, custom software, and useful AI.</p>
           <a className="button button--outline" href="#services">Explore our services <span className="arrow-icon arrow-icon--down" aria-hidden="true" /></a>
           <span className="marker-note" aria-hidden="true">Built together.</span>
-          <div className="idea-line" aria-hidden="true"><span className="idea-dot" /><span className="idea-path" /><span className="idea-star" /></div>
+          <div className="idea-line" aria-hidden="true"><span className="idea-dot" /><span className="idea-path" /></div>
         </div>
 
         <div className="service-grid" id="services">
