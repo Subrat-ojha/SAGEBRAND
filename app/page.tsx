@@ -38,7 +38,6 @@ export default function Home() {
         </div>
 
         <div className="service-grid" id="services">
-          <span className="service-route" aria-hidden="true"><i /><b /><em /></span>
           {services.map((service) => (
             <article className={`service-panel service-panel--${service.tone}`} key={service.title}>
               <ServiceMark type={service.icon} />

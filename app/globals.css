@@ -39,12 +39,6 @@ a:focus-visible { outline:3px solid var(--ink); outline-offset:4px; }
 .idea-path { position:absolute; left:11%; right:8%; top:46%; height:38%; border-top:4px solid var(--ink); border-radius:50%; transform:rotate(-3deg); }
 .idea-dot { position:absolute; left:8%; top:36%; width:22px; height:22px; border:4px solid var(--ink); border-radius:50%; background:var(--yellow); }
 .service-grid { position:relative; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
-.service-route { position:absolute; inset:11% 9%; z-index:2; pointer-events:none; clip-path:inset(0 100% 0 0); transition:clip-path 650ms cubic-bezier(.16,1,.3,1); }
-.service-grid:hover .service-route,.service-grid:focus-within .service-route { clip-path:inset(0 0 0 0); }
-.service-route i,.service-route b,.service-route em { position:absolute; display:block; border-color:var(--ink); border-style:solid; border-width:0; }
-.service-route i { left:18%; top:8%; width:57%; height:38%; border-top-width:3px; border-right-width:3px; border-radius:0 24px 0 0; transform:rotate(3deg); }
-.service-route b { right:13%; top:45%; width:48%; height:35%; border-bottom-width:3px; border-left-width:3px; border-radius:0 0 0 24px; transform:rotate(-2deg); }
-.service-route em { left:10%; bottom:18%; width:16px; height:16px; border:3px solid var(--ink); border-radius:50%; background:var(--yellow); }
 .service-panel { position:relative; min-height:270px; padding:clamp(24px,3vw,42px); display:flex; flex-direction:column; justify-content:space-between; overflow:hidden; }
 .service-panel:nth-of-type(odd) { border-right:var(--rule) solid var(--ink); }
 .service-panel:nth-of-type(-n+2) { border-bottom:var(--rule) solid var(--ink); }
@@ -126,4 +120,4 @@ footer { min-height:120px; display:grid; grid-template-columns:1fr auto 1fr; ali
   .marker-note { right:8%; bottom:8%; }
   .idea-line { height:7%; }
 }
-@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition-duration:.01ms!important; }.service-route { clip-path:inset(0 0 0 0); } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition-duration:.01ms!important; } }
